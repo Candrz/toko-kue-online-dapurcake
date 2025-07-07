@@ -1,0 +1,75 @@
+:root {
+    --color-cream: #FFF8E1;
+    --color-coffee: #6D4C41;
+    --color-caramel: #FFCC80;
+    --color-pink: #FADADD;
+    --color-dark: #3E2723; /* Tambahan warna gelap */
+    }
+    body {
+    background-color: var(--color-cream);
+    color: var(--color-coffee);
+    }
+    .navbar {
+    background-color: var(--color-caramel);
+    }
+    .navbar .container-fluid a.navbar-brand {
+    color: var(--color-coffee);
+    }
+    .bg-pink {
+    background-color: var(--color-pink);
+    color: var(--color-coffee);
+    border: none;
+    }
+    .bg-caramel {
+    background-color: var(--color-caramel);
+    color: var(--color-coffe);
+    border: none;
+    }
+    .bg-cream {
+    background-color: var(--color-cream);
+    color: var(--color-coffee);
+    border: none;
+    }
+    /* Contoh penggunaan warna gelap */
+    .footer {
+    background-color: var(--color-dark);
+    color: var(--color-cream);
+    }
+    .card{
+    cursor: pointer;
+    transition: 0.1s ease-in;
+    }
+    .card:hover {
+    transform: translateY(-1px) scale(1);
+    }
+    .card-body {
+    padding: 1em;
+    }
+    .category:hover {
+    background-color: var(--color-pink);
+    transform: translateY(1px);
+    }
+    .price {
+    padding: 0;
+    margin: 0;
+    }
+    .banner {
+    height: 300px;
+    width:100%;
+    object-fit: cover;
+    object-position: center;
+    }
+    .banner-categories {
+    height: 200px;
+    }
+    .carousel-item img {
+    background-size: cover;
+    object-fit: cover;
+    }
+    .img-product {
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+    }
+    
